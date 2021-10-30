@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.8.0/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Jason Offenbaker</title>
 </head>
@@ -12,57 +14,64 @@
 <body>
     <!--Navigation and header-->
     <header>
-        <div>
-            <h1>
-                Jason Offenbaker
-            </h1>
-        </div>
-        <div>
-            <a href="#">Resume</a>
-            <a href="#projects">Projects</a>
-            <a href="#">Other</a>
+        <div id="desktop">
         </div>
     </header>
+
     <!--Main Content-->
     <main>
-        <section id="projets">
-            <div class="card-large">
-                <a href="https://jasoffen.github.io/Run-Buddy/">
-                    <img src="assets/images/run-buddy.png" />
-                </a>
+        <div class="uk-flex uk-flex-center">
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
+                <div class="uk-card-badge uk-label">Group</div>
+                <h3 class="uk-card-title">Citizen Master</h3>
+                <img src="./assets/images/Citizen-Master.jfif" />
+                <p>An application where you can search for local events in a town using the TicketMaster API as well as
+                    statistics on that town (such as safety) using a 0-10 rating scale using the Teleport API.</p>
             </div>
-            <div class="card-small">
-                <a href="https://jasoffen.github.io/Run-Buddy/">
-                    <img src="assets/images/run-buddy.png" />
-                </a>
-                <a href="https://jasoffen.github.io/Run-Buddy/">
-                    <img src="assets/images/run-buddy.png" />
-                </a>
-                <a href="https://jasoffen.github.io/Run-Buddy/">
-                    <img src="assets/images/run-buddy.png" />
-                </a>
+        </div>
+        <hr class="uk-divider-icon">
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid id="smallCards">
+            <div>
+                <img src="./assets/images/WeatherApplication.png" />
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
             </div>
-            <div class="card-small">
-                <a href="https://jasoffen.github.io/Run-Buddy/">
-                    <img src="assets/images/run-buddy.png" />
-                </a>
-                <a href="https://jasoffen.github.io/Run-Buddy/">
-                    <img src="assets/images/run-buddy.png" />
-                </a>
-                <a href="https://jasoffen.github.io/Run-Buddy/">
-                    <img src="assets/images/run-buddy.png" />
-                </a>
+            <div>
+                <img src="./assets/images/WorkCalendar.png" />
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
             </div>
-        </section>
+            <div>
+                <img src="./assets/images/CodeQuiz.png" />
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <img src="./assets/images/PasswordGenerator.png" />
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+        </div>
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <img src="./assets/images/old-portfolio.png" />
+                <div class="uk-card uk-card-default uk-card-body"></div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body"></div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body"></div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body"></div>
+            </div>
+        </div>
+
+
+
     </main>
-    <footer>
-        <h4>
-            Jason Offenbaker
-        </h4>
-        </div>
-        <div>
-        </div>
-    </footer>
+    <!-- UIkit JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.8.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.8.0/dist/js/uikit-icons.min.js"></script>
+    <script src="./assets/javascript/script.js"></script>
 </body>
 
 </html>

@@ -1,60 +1,7 @@
-/*
-https://coolors.co/db7f67-dbbea1-a37b73-3f292b-2c1320 
-https://coolors.co/b4c5e4-000000-696773-3b0086-c4f1be
-Color Pallete Generator
-*/
-:root{
-    --main-bg-color: #3B0086;
-    --secondary-color: #696773;
-    --text-color: #B4C5E4;
-    --text-color-secondary:#000;
+header{
+background-color: rgb(237, 206, 250);
 }
-body{
-    background: var(--main-bg-color);
-    margin:0;
+
+#smallCards img{
+  height: 75px;
 }
-h1{
-    color: var(--text-color); 
-}
-header {
-    display:flex;
-    background-color: var(--secondary-color);
-    justify-content: space-between;
-  }
-header a{
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 32px;
-  color: var(--text-color);
-  align-items: center;
-}
-.card-large{
-    display: flex;
-}
-.card-large img{
-    flex-flow: row nowrap;
-    align-items: center;
-    width: 50%;
-    margin-left: 25%;
-    flex-shrink: 0;
-}
-.card-small img{
-    flex-flow: row nowrap;
-    align-items: center;
-    margin-left:5%;
-    width: 25%;
-    flex-shrink: 0;
-}
-footer {
-  display:flex;
-  background-color: var(--secondary-color);
-}
-@media screen and (max-width: 768px) {
-    main, header{
-      flex-flow: column nowrap;
-      margin: 0;
-      width: 100%;
-    }
-  }
-  

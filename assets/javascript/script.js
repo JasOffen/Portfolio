@@ -50,7 +50,8 @@ function desktopHeaderSize() {
             buttonEl.setAttribute('uk-scrollspy', 'target: > div; cls: uk-animation-fade; delay: ' + scrollspyDelay);
             buttonEl.setAttribute('class', 'uk-flex uk-flex-middle');
             buttonAnimationType.setAttribute('uk-scrollspy-class', 'uk-animation-fade');
-            buttonLink.setAttribute('href', '#');
+            buttonLink.setAttribute('href', 'https://github.com/JasOffen');
+            buttonLink.setAttribute('target', '_blank');
             buttonH3.textContent = buttonArray[i];
             buttonFlexType.setAttribute('class', 'uk-flex-inline')
             buttonBadge.setAttribute('class', 'uk-badge');
@@ -61,7 +62,7 @@ function desktopHeaderSize() {
             buttonEl.setAttribute('uk-scrollspy', 'target: > div; cls: uk-animation-fade; delay: ' + scrollspyDelay);
             buttonEl.setAttribute('class', 'uk-flex uk-flex-middle');
             buttonAnimationType.setAttribute('uk-scrollspy-class', 'uk-animation-fade');
-            buttonLink.setAttribute('href', '#');
+            buttonLink.setAttribute('href', '#' + buttonArray[i]);
             buttonH3.textContent = buttonArray[i];
         }
         headerEl.setAttribute('class', 'uk-flex uk-flex-row uk-flex-around')
